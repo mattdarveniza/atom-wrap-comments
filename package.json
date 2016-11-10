@@ -1,0 +1,26 @@
+{
+  "name": "atom-wrap-comments",
+  "main": "./lib/atom-wrap-comments",
+  "version": "0.1.0",
+  "description": "An Atom package to hard-wrap comments to correct line lengths and indentation while maintaining comment markings",
+  "keywords": [
+    "wrap",
+    "hard-wrap",
+    "atom",
+    "comments"
+  ],
+  "activationCommands": {
+    "atom-workspace": "wrap-comments:hard-wrap"
+  },
+  "repository": null,
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "fs-plus": "2.x",
+    "temp": "~0.8.1"
+  }
+}

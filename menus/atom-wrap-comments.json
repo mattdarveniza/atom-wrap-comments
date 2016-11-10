@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Wrap Comments",
+        "command": "wrap-comments:hard-wrap"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Wrap Comments",
+          "submenu": [
+            {
+              "label": "Wrap",
+              "command": "wrap-comments:hard-wrap"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

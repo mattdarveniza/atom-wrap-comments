@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "wrap-comments:hard-wrap"
   },
-  "repository": null,
+  "repository": "https://github.com/mattdarveniza/atom-wrap-comments",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
